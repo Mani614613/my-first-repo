@@ -1,5 +1,5 @@
-echo "Gussing game"
+echo "Gussing game " >> README.md
 now=$(date)
-echo $now
+echo $now >> README.md
 math_lines=$(cat guessinggame.sh | wc -l)
-echo $math_lines
+echo $math_lines >> README.md
